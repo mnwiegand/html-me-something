@@ -10,7 +10,7 @@
     <h1>Maker, Maker, Mover &amp; Shaker:<br>Places to Make in the St. Louis Area</h1>
     <article>
         <!--<img src="images/IMG_20160617_221217.jpg" alt="Why Make?" width="1100">-->
-        <h2>Why do I make?</h2>
+        <h2>Reasons to make:</h2>
         <ul>
             <li>empower myself by figuring out how stuff works</li>
             <li>design to my taste &amp; needs</li>
@@ -20,14 +20,15 @@
             <li>bragging points</li>
             <li>build a new product or business</li>
             <li>stave off boredom</li>
+            <li>
+                <form action="/action_page_why_they_make.php">
+                    Why do you make?
+                    <input type="text" name="WhyTheyMake">
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </li>
         </ul>
-
-        <form action="/action_page_why_they_make.php">
-            Why do you make?
-            <input type="text" name="WhyTheyMake">
-            <br>
-            <input type="submit" value="Submit">
-        </form>
     </article>
 
     <article>
@@ -45,13 +46,17 @@
             <li>Reconfigure an item to a new purpose</li>
             <li>Fixes: fix a broken item</li>
             <li>Making food to eat.</li>
+            <li>
+                <form action="/action_page_what_they_make.php">
+                    What do you want to make?
+                    <input type="text" name="WhatTheyMake">
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </li>
         </ul>
         <!-- viewer comments taken here -->
-        <form action="/action_page_what_they_make.php">
-            What do you make?
-            <input type="text" name="WhatTheyMake">
-            <br>
-            <input type="submit" value="Submit">
+
     </article>
 
     <article>
@@ -161,6 +166,7 @@
         <input type="text" name="EmailForList">
         <br>
         <input type="submit" value="Join the email list">
+    </form>
 </footer>
 
 </html>
