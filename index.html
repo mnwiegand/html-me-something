@@ -3,22 +3,33 @@
 
 <head>
     <title>Maker, Maker, Mover &amp; Shaker</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <main>
 
     <body>
 
-        <header id="banner">
+        <header id="top-banner">
             <h1>Maker, Maker, Mover &amp; Shaker:
-                <br>Places to Make in the St. Louis Area</h1>
+                <br>Places to Make in the St. Louis Area
+            </h1>
+            <nav id="banner-nav">
+                <ul class="banner-nav">
+                    <li class="banner-nav"><a href="#why">Why</a></li>
+                    <li class="banner-nav"><a href="#what">What</a></li>
+                    <li class="banner-nav"><a href="#where">Where</a></li>
+                    <li class="banner-nav"><a href="#support others">Support Makers</a></li>
+                </ul>
+            </nav>
         </header>
         <article>
             <!--<img src="images/IMG_20160617_221217.jpg" alt="Why Make?" width="1100">-->
             <header>
-                <h2>Why make?</h2>
+                <a name="why"></a>
+                <h2 class="section">Why</h2>
             </header>
-            <p>There are many reasons to make things:</p>
+            <p>There are <b>many</b> reasons to make</p>
             <ul class="list">
                 <li>empower myself by figuring out how stuff works</li>
                 <li>design to my taste &amp; needs</li>
@@ -30,10 +41,8 @@
                 <li>stave off boredom</li>
                 <li>
                     <form action="/action_page_why_they_make.php">
-                        Why do you make?
+                        <input type="submit" value="Why do you make?">
                         <input type="text" name="WhyTheyMake">
-                        <br>
-                        <input type="submit" value="Submit">
                     </form>
                 </li>
             </ul>
@@ -41,15 +50,17 @@
 
         <article>
             <header>
-                <h2>What to make?</h2>
+                <a name="what"></a>
+                <h2 class="section">What</h2>
             </header>
-            <p>There are many things you can make, some more common, some more quirky.</p>
+            <p>Some skills or project ideas are more common than others... here are some of mine!</p>
             <img src="images/IMG_20161026_213905.jpg" alt="Making a Beard" height="120">
             <img src="images/IMG_20161027_000603.jpg" alt="Beard Final" height="120">
             <img src="images/IMG_20160919_193015.jpg" alt="Making cones" height="120">
             <img src="images/IMG_20160425_220838.jpg" alt="Making cones" height="120">
             <img src="images/IMG_20180228_191900.jpg" alt="Making pizza" height="120">
             <img src="images/IMG_20171222_193240.jpg" alt="Anvil Cookies" height="120">
+            <img src="images/webpage.jpg" alt="This!" height="120">
             <ul class="list">
                 <li>Thingies: accessories for yourself, home or gifts</li>
                 <li>Designs: new version of an existing item</li>
@@ -58,10 +69,8 @@
                 <li>Making food to eat.</li>
                 <li>
                     <form action="/action_page_what_they_make.php">
-                        What do you want to make?
+                        <input type="submit" value="What do you want to make?">
                         <input type="text" name="WhatTheyMake">
-                        <br>
-                        <input type="submit" value="Submit">
                     </form>
                 </li>
             </ul>
@@ -71,7 +80,8 @@
 
         <article>
             <header>
-                <h2>Where do I make?</h2>
+                <a name="where"></a>
+                <h2 class="section">Where</h2>
             </header>
             <p>You'll need some space and tools, possibly electricity and WiFi as well. You may be surprised to realize how close you are to getting started or finishing your newest project with these resources...</p>
             <ul class="list">
@@ -145,10 +155,8 @@
                 </li>
                 <li>
                     <form action="/action_page_where_they_make.php">
-                        Where do you make?
+                        <input type="submit" value="Where do you make?">
                         <input type="text" name="WhereTheyMake">
-                        <br>
-                        <input type="submit" value="Submit">
                     </form>
                 </li>
             </ul>
@@ -158,10 +166,11 @@
 
         <article>
             <header>
-                <h2>How to support other makers?</h2>
+                <a name="support others"></a>
+                <h2 class="section">How to support other makers</h2>
             </header>
             <ul>
-                <li>Make a charitable contribution to a not-for-profit makers organization (a few of the above are not-for-profit)</li>
+                <li>Make a charitable contribution to a maker space that is a not-for-profit organization</li>
                 <li>Buy <b>Thingies</b> at the following places</li>
                 <ul>
                     <img src="images/IMG_20170525_154831.jpg" alt="Wood, Leather" height="120">
@@ -187,13 +196,11 @@
         </article>
 </main>
 <footer>
+    <p id="footer">Suggestions for Making 24/7, posted by: Miriam Wiegand</p>
     <form action="/action_page_JoinMailing.php">
-        What's your email?
-        <input type="text" name="EmailForList">
-        <br>
         <input type="submit" value="Join the email list">
+        <input type="text" name="EmailForList">
     </form>
-        <p id="footer">Suggestions for Making 24/7, posted by: Miriam Wiegand</p>
 </footer>
 </body>
 
