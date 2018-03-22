@@ -2,206 +2,269 @@
 <html>
 
 <head>
+    <link type="text/css" rel="stylesheet" href="normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles.css">
     <title>Maker, Maker, Mover &amp; Shaker</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styles.css">
 </head>
-<main>
 
-    <body>
-
-        <header id="top-banner">
-            <h1>Maker, Maker, Mover &amp; Shaker:
-                <br>Places to Make in the St. Louis Area
-            </h1>
-            <nav id="banner-nav">
-                <ul class="banner-nav">
-                    <li class="banner-nav"><a href="#why">Why</a></li>
-                    <li class="banner-nav"><a href="#what">What</a></li>
-                    <li class="banner-nav"><a href="#where">Where</a></li>
-                    <li class="banner-nav"><a href="#support others">Support Makers</a></li>
-                </ul>
-            </nav>
+<body>
+    <header id="top-banner">
+        <h1>Maker, Maker, Mover &amp; Shaker:
+            <br>Places to Make in the St. Louis Area
+        </h1>
+        <nav id="banner-nav">
+            <ul class="banner-nav">
+                <li class="banner-nav">
+                    <a href="#why">Why</a>
+                </li>
+                <li class="banner-nav">
+                    <a href="#what">What</a>
+                </li>
+                <li class="banner-nav">
+                    <a href="#where">Where</a>
+                </li>
+                <li class="banner-nav">
+                    <a href="#support others">Support Makers</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <!--<img src="images/IMG_20160617_221217.jpg" alt="Why Make?" width="1100">-->
+        <header>
+            <a name="why"></a>
+            <h2 class="section">Why</h2>
         </header>
-        <article>
-            <!--<img src="images/IMG_20160617_221217.jpg" alt="Why Make?" width="1100">-->
-            <header>
-                <a name="why"></a>
-                <h2 class="section">Why</h2>
-            </header>
-            <p>There are <b>many</b> reasons to make</p>
-            <ul class="list">
-                <li>empower myself by figuring out how stuff works</li>
-                <li>design to my taste &amp; needs</li>
-                <li>if I have the funds</li>
-                <li>if I don't have the funds</li>
-                <li>when only a custom fix will do</li>
-                <li>bragging points</li>
-                <li>build a new product or business</li>
-                <li>stave off boredom</li>
-                <li>
-                    <form action="/action_page_why_they_make.php">
-                        <input type="submit" value="Why do you make?">
-                        <input type="text" name="WhyTheyMake">
-                    </form>
-                </li>
-            </ul>
-        </article>
+        <p>There are
+            <b>many</b> reasons to make</p>
+        <ul class="list">
+            <li>empower myself by figuring out how stuff works</li>
+            <li>design to my taste &amp; needs</li>
+            <li>if I have the funds</li>
+            <li>if I don't have the funds</li>
+            <li>when only a custom fix will do</li>
+            <li>bragging points</li>
+            <li>build a new product or business</li>
+            <li>stave off boredom</li>
+            <li>
+                <form action="/action_page_why_they_make.php">
+                    <input type="submit" value="Why do you make?">
+                    <input type="text" name="WhyTheyMake">
+                </form>
+            </li>
+        </ul>
+    </article>
 
-        <article>
-            <header>
-                <a name="what"></a>
-                <h2 class="section">What</h2>
-            </header>
-            <p>Some skills or project ideas are more common than others... here are some of mine!</p>
-            <img src="images/IMG_20161026_213905.jpg" alt="Making a Beard" height="120">
-            <img src="images/IMG_20161027_000603.jpg" alt="Beard Final" height="120">
-            <img src="images/IMG_20160919_193015.jpg" alt="Making cones" height="120">
-            <img src="images/IMG_20160425_220838.jpg" alt="Making cones" height="120">
-            <img src="images/IMG_20180228_191900.jpg" alt="Making pizza" height="120">
-            <img src="images/IMG_20171222_193240.jpg" alt="Anvil Cookies" height="120">
-            <img src="images/webpage.jpg" alt="This!" height="120">
-            <ul class="list">
-                <li>Thingies: accessories for yourself, home or gifts</li>
-                <li>Designs: new version of an existing item</li>
-                <li>Reconfigure an item to a new purpose</li>
-                <li>Fixes: fix a broken item</li>
-                <li>Making food to eat.</li>
-                <li>
-                    <form action="/action_page_what_they_make.php">
-                        <input type="submit" value="What do you want to make?">
-                        <input type="text" name="WhatTheyMake">
-                    </form>
-                </li>
-            </ul>
-            <!-- viewer comments taken here -->
+    <article>
+        <header>
+            <a name="what"></a>
+            <h2 class="section">What</h2>
+        </header>
+        <p>Some skills or project ideas are more common than others... here are some of mine!</p>
+        <img src="images/IMG_20161026_213905.jpg" alt="Making a Beard" height="120">
+        <img src="images/IMG_20161027_000603.jpg" alt="Beard Final" height="120">
+        <img src="images/IMG_20160919_193015.jpg" alt="Repairing blinds" height="120">
+        <img src="images/IMG_20160425_220838.jpg" alt="Making cones" height="120">
+        <img src="images/IMG_20180228_191900.jpg" alt="Making pizza" height="120">
+        <img src="images/IMG_20171222_193240.jpg" alt="Anvil Cookies" height="120">
+        <img src="images/webpage.jpg" alt="This!" height="120">
+        <ul class="list">
+            <li>Thingies: accessories for yourself, home or gifts</li>
+            <li>Designs: new version of an existing item</li>
+            <li>Reconfigure an item to a new purpose</li>
+            <li>Fixes: fix a broken item</li>
+            <li>Making food to eat.</li>
+            <li>
+                <form action="/action_page_what_they_make.php">
+                    <input type="submit" value="What do you make?">
+                    <input type="text" name="WhatTheyMake">
+                </form>
+            </li>
+            <li>
+                <form action="/action_page_want_to_make.php">
+                    <input type="submit" value="What do you want to make?">
+                    <input type="text" name="Want_to_Make">
+                </form>
+            </li>
+        </ul>
+        <!-- viewer comments taken here -->
 
-        </article>
+    </article>
 
-        <article>
-            <header>
-                <a name="where"></a>
-                <h2 class="section">Where</h2>
-            </header>
-            <p>You'll need some space and tools, possibly electricity and WiFi as well. You may be surprised to realize how close you are to getting started or finishing your newest project with these resources...</p>
-            <ul class="list">
-                <li> &#9884; at home
-                </li>
-                <!-- list of common tools folks might have at home -->
-                <li>
-                    <img src="images/IMG_20161011_210704.jpg" alt="Arch Reactor" height="120">
+    <article>
+        <header>
+            <a name="where"></a>
+            <h2 class="section">Where</h2>
+        </header>
+        <p>You'll need some space and tools, possibly electricity and WiFi as well. You may be surprised to realize how close
+            you are to getting started or finishing your newest project with these resources...</p>
+        <table class="w-3-table">
+            <tr>
+                <th>Snapshot</th>
+                <th>Where</th>
+                <th>Tools</th>
+                <th>Amenities</th>
+                <th>Pricing Model</th>
+            </tr>
+            <tr>
+                <td>&#9884;</td>
+                <td>at home</td>
+                <td>sewing machines, drill, hand saw, pencil torch</td>
+                <td>WiFi</td>
+                <td>-------</td>
+            </tr>
+            <tr>
+                <!--<img src="images/IMG_20161011_210704.jpg" alt="Arch Reactor" height="120">-->
+                <td>
                     <img src="images/IMG_20180112_212600.jpg" alt="blacksmithing" height="120">
-                    <br>
+                </td>
+                <td>
                     <a href="https://archreactor.org/">Arch Reactor</a>
-                </li>
-                <!-- list of tools & favorite key topics-->
-                <li>
+                </td>
+                <td>table saw, planer, jointer, drill press, 3-d printers, laser cutter, milling machine, wood lathe, metal lathe,
+                    metal grinder, forge, anvil, assorted other hand tools</td>
+                <td>WiFi, other members are happy to share their expertise</td>
+                <td>Monthly membership fee of $45 for full members (coop-style: volunteer hours expected)</td>
+            </tr>
+            <!-- list of tools & favorite key topics-->
+            <tr>
+                <td>
                     <img src="images/IMG_20170513_183926.jpg" alt="Pottery Studio at Craft Alliance" height="120">
-                    <br>
+                </td>
+                <td>
                     <a href="www.craftalliance.org">Craft Alliance</a>
-                </li>
-                <!-- list of tools & favorite key topics-->
-                <li>
+                </td>
+                <td> pottery wheels, slab roller, electric kiln, gas kiln, soda kiln, weaving looms, glass fusing kiln, torches,
+                    casting centrifuge, fume hoods</td>
+                <td>WiFi, knowledgeable faculty, organized yet casual classes, select open studio hours</td>
+                <td>$$-$$$ by the class</td>
+            </tr>
+            <!-- list of tools & favorite key topics-->
+            <tr>
+                <td>
+                    <img src="https://perennialstl.org/app/uploads/2017/12/IMG_3878.jpg" height="120">
+                </td>
+                <td>
                     <a href="https://perennialstl.org/">Perennial</a>
-                </li>
-                <li>
+                </td>
+                <td>chopsaw, bandsaw, jig saw, drills </td>
+                <td></td>
+                <td>$$ by the class</td>
+            </tr>
+            <tr>
+                <td>
                     <img src="images/IMG_20161017_155123.jpg" alt="Krueger Pottery" height="120">
-                    <br>
+                </td>
+                <td>
                     <a href="kruegerpottery.com">Krueger Pottery</a>
-                </li>
-                <li>
+                </td>
+                <td>kilns, supplies available in shop immediately next door </td>
+                <td></td>
+                <td>$$ by the class</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://www.launchcode.org/blog/wp-content/uploads/2018/02/CodingInterview-Blog_post-600x600.jpg" alt="LaunchCodde"
+                        height="120">
+                </td>
+                <td>
                     <a href="www.launchcode.org">LaunchCode</a>
-                </li>
-                <li>Local Public Libraries
-                    <ul>
-                        <li>
-                            <a href="slcl.org">St. Louis County Libraries</a>
-                        </li>
-                        <li>
-                            <a href="http://www.ucpl.lib.mo.us/technology">UCity Public Library</a>
-                        </li>
-                        <li>
-                            <a href="http://www.mlc-stl.org/">Municipal Library Consortium (St. Louis, MO)</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>Local Community Colleges &amp; Universities
-                    <ul>
-                        <li>
-                            <a href=" http://www.stlcc.edu/Continuing-Education/classes/index.asp">St. Louis Community College (4 campuses)</a>
-                        </li>
-                        <li>
-                            <a href="">Maryville University</a>
-                        </li>
-                        <li>
-                            <a href="">UMSL</a>
-                        </li>
-                        <li>
-                            <a href="">SLU</a>
-                        </li>
-                        <li>
-                            <a href="">WUSTL</a>
-                        </li>
-                        <li>
-                            <a href="">Fontbonne University</a>
-                        </li>
-                        <li>
-                            <a href="https://www.siue.edu/continuing-education/personal-development/index.shtml">SIUE</a>
-                        </li>
-                        <li>
-                            <a href="www.siu.edu/continuing-education-professional-development/non-credit-classes.php">SIUC</a>
-                        </li>
-                    </ul>
+                </td>
+                <td>(BYO Laptop)</td>
+                <td>WiFi, knowledgeable mentors</td>
+                <td>------</td>
+            </tr>
+        </table>
+        <li>Local Public Libraries
+            <ul>
+                <li>
+                    <a href="slcl.org">St. Louis County Libraries</a>
                 </li>
                 <li>
-                    <form action="/action_page_where_they_make.php">
-                        <input type="submit" value="Where do you make?">
-                        <input type="text" name="WhereTheyMake">
-                    </form>
+                    <a href="http://www.ucpl.lib.mo.us/technology">UCity Public Library</a>
+                </li>
+                <li>
+                    <a href="http://www.mlc-stl.org/">Municipal Library Consortium (St. Louis, MO)</a>
                 </li>
             </ul>
-            <!--viewer comments section - can a check box be made for each li item? -->
-
-        </article>
-
-        <article>
-            <header>
-                <a name="support others"></a>
-                <h2 class="section">How to support other makers</h2>
-            </header>
+        </li>
+        <li>Local Community Colleges &amp; Universities
             <ul>
-                <li>Make a charitable contribution to a maker space that is a not-for-profit organization</li>
-                <li>Buy <b>Thingies</b> at the following places</li>
-                <ul>
-                    <img src="images/IMG_20170525_154831.jpg" alt="Wood, Leather" height="120">
-                    <img src="images/IMG_20170803_103556.jpg" alt="Judy Jackson" height="120">
-                    <img src="images/IMG_20171229_132619.jpg" alt="Houston Llew" height="120">
-                    <img src="images/IMG_20180214_100620.jpg" alt="Sam Stang" height="120">
-                    <img src="images/IMG_20160822_150329.jpg" alt="Cathayana" height="120">
-                    <br>
-                    <li>
-                        <a href="https://craftalliance.org/shop">Craft Alliance Gallery Shop</a>
-                    </li>
-                    <li>
-                        <a href="http://www.componere.com/">Comp&ocirc;nere</a>
-                    </li>
-                    <li>
-                        <a href="https://www.stlunionstudio.com/shop/">Union Studio</a>
-                    </li>
-                    <li>
-                        <a href="http://www.urbanmatterstl.com/visit.html">Urban Matter</a>
-                    </li>
-                </ul>
+                <li>
+                    <a href=" http://www.stlcc.edu/Continuing-Education/classes/index.asp">St. Louis Community College (4 campuses)</a>
+                </li>
+                <li>
+                    <a href="">Maryville University</a>
+                </li>
+                <li>
+                    <a href="">UMSL</a>
+                </li>
+                <li>
+                    <a href="">SLU</a>
+                </li>
+                <li>
+                    <a href="">WUSTL</a>
+                </li>
+                <li>
+                    <a href="">Fontbonne University</a>
+                </li>
+                <li>
+                    <a href="https://www.siue.edu/continuing-education/personal-development/index.shtml">SIUE</a>
+                </li>
+                <li>
+                    <a href="www.siu.edu/continuing-education-professional-development/non-credit-classes.php">SIUC</a>
+                </li>
             </ul>
-        </article>
-</main>
-<footer>
-    <p id="footer">Suggestions for Making 24/7, posted by: Miriam Wiegand</p>
-    <form action="/action_page_JoinMailing.php">
-        <input type="submit" value="Join the email list">
-        <input type="text" name="EmailForList">
-    </form>
-</footer>
+        </li>
+        <li>
+            <form action="/action_page_where_they_make.php">
+                <input type="submit" value="Where do you make?">
+                <input type="text" name="WhereTheyMake">
+            </form>
+        </li>
+        </ul>
+        <!--viewer comments section - can a check box be made for each li item? -->
+
+    </article>
+
+    <article>
+        <header>
+            <a name="support others"></a>
+            <h2 class="section">How to support other makers</h2>
+        </header>
+        <ul>
+            <li>Make a charitable contribution to a maker space that is a not-for-profit organization</li>
+            <li>Buy
+                <b>Thingies</b> at the following places</li>
+            <ul>
+                <img src="images/IMG_20170525_154831.jpg" alt="Wood, Leather" height="120">
+                <img src="images/IMG_20170803_103556.jpg" alt="Judy Jackson" height="120">
+                <img src="images/IMG_20171229_132619.jpg" alt="Houston Llew" height="120">
+                <img src="images/IMG_20180214_100620.jpg" alt="Sam Stang" height="120">
+                <img src="images/IMG_20160822_150329.jpg" alt="Cathayana" height="120">
+                <br>
+                <li>
+                    <a href="https://craftalliance.org/shop">Craft Alliance Gallery Shop</a>
+                </li>
+                <li>
+                    <a href="http://www.componere.com/">Comp&ocirc;nere</a>
+                </li>
+                <li>
+                    <a href="https://www.stlunionstudio.com/shop/">Union Studio</a>
+                </li>
+                <li>
+                    <a href="http://www.urbanmatterstl.com/visit.html">Urban Matter</a>
+                </li>
+            </ul>
+        </ul>
+    </article>
+    <footer>
+        <p id="footer">Suggestions for Making 24/7, posted by: Miriam Wiegand</p>
+        <form action="/action_page_JoinMailing.php">
+            <input type="submit" value="Join the email list">
+            <input type="text" name="EmailForList">
+        </form>
+    </footer>
 </body>
 
 </html>
